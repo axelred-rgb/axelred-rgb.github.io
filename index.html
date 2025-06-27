@@ -1,54 +1,55 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Axel Nyagom – Cloud & DevOps Engineer</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <style>
-        body { font-family: sans-serif; background: #111; color: #eee; margin: 2rem; }
-        h1, h2 { color: #00d8ff; }
-        a { color: #00ffae; text-decoration: none; }
-        .section { margin-bottom: 2rem; }
-        ul { list-style: none; padding: 0; }
-    </style>
-</head>
-<body>
+---
+layout: default
+title: Axel Nyagom – Cloud & DevOps Engineer
+description: Portfolio professionale DevOps & Cloud | Docker, Kubernetes, CI/CD, Cloud Platforms
+---
 
-    <h1>Axel Nyagom</h1>
-    <p><strong>Cloud & DevOps Engineer</strong> basato a Milano – specializzato in containerizzazione, CI/CD, monitoring e cloud infrastructure.</p>
+<header style="display: flex; justify-content: space-between; align-items: center; padding: 10px 20px; background-color: #f9f9f9; border-bottom: 1px solid #ddd;">
+  <div style="display: flex; align-items: center;">
+    <img src="/assets/img/logo.png" alt="Axel Nyagom Logo" style="height: 32px; margin-right: 10px;">
+    <h1 style="margin: 0; font-size: 18px;">Axel Nyagom</h1>
+  </div>
+  <nav>
+    <a href="#about" style="margin-right: 20px; text-decoration: none; color: #333;">Chi Sono</a>
+    <a href="#projects" style="margin-right: 20px; text-decoration: none; color: #333;">Progetti</a>
+    <a href="#skills" style="margin-right: 20px; text-decoration: none; color: #333;">Competenze</a>
+    <a href="#contact" style="text-decoration: none; color: #333;">Contatti</a>
+  </nav>
+</header>
 
-    <div class="section">
-        <h2>⚙️ Competenze Tecniche</h2>
-        <ul>
-            <li>🐳 Docker, Docker Compose, Docker Swarm</li>
-            <li>☸️ Kubernetes (Minikube, EKS)</li>
-            <li>🔄 CI/CD (GitHub Actions, Jenkins)</li>
-            <li>📁 Git, GitHub</li>
-            <li>📦 Terraform, Ansible</li>
-            <li>📊 Prometheus, Grafana</li>
-            <li>💻 Linux, scripting Bash</li>
-        </ul>
-    </div>
+<main style="padding: 40px 20px;">
+  <section id="about" style="margin-bottom: 60px;">
+    <h2>Chi Sono</h2>
+    <p>Sono Axel Nyagom, un Cloud & DevOps Engineer con una forte passione per l’automazione, i container, l’infrastruttura come codice e le architetture cloud-native.</p>
+  </section>
 
-    <div class="section">
-        <h2>🚀 Progetti GitHub</h2>
-        <ul>
-            <li><a href="https://github.com/axelred-rgb/backup-script" target="_blank">Backup Bash Script</a> – Automazione backup compressi via cron</li>
-            <li><a href="https://github.com/axelred-rgb/docker-wordpress" target="_blank">Docker WordPress Stack</a> – WordPress + MySQL orchestrato</li>
-            <li><a href="https://github.com/axelred-rgb/ci-cd-pipeline" target="_blank">CI/CD GitHub Actions</a> – Build, test e deploy automatici</li>
-        </ul>
-    </div>
+  <section id="projects" style="margin-bottom: 60px;">
+    <h2>Progetti</h2>
+    <ul>
+      <li><strong>EFS + EKS Kubernetes Project:</strong> Integrazione EFS in un cluster EKS con Terraform + YAML</li>
+      <li><strong>Serverless URL Shortener:</strong> Architettura API Gateway + Lambda + DynamoDB (AWS)</li>
+      <li><strong>Monitoring Stack:</strong> Grafana + Prometheus + Loki per container Docker & Kubernetes</li>
+    </ul>
+  </section>
 
-    <div class="section">
-        <h2>📫 Contatti</h2>
-        <p>Email: <a href="mailto:nyagomaxel2@gmail.com">nyagomaxel2@gmail.com</a></p>
-        <p>GitHub: <a href="https://github.com/axelred-rgb" target="_blank">axelred-rgb</a></p>
-        <p>LinkedIn: <a href="https://linkedin.com/in/axelnyagom" target="_blank">axelnyagom</a></p>
-    </div>
+  <section id="skills" style="margin-bottom: 60px;">
+    <h2>Competenze Tecniche</h2>
+    <ul>
+      <li>AWS, Azure, Docker, Kubernetes, GitHub Actions</li>
+      <li>Terraform, CloudFormation, Jenkins, CI/CD</li>
+      <li>Serverless, Microservizi, Monitoring (Prometheus/Grafana)</li>
+    </ul>
+  </section>
 
-    <footer>
-        <p>🌐 Portfolio DevOps – Powered by GitHub Pages</p>
-    </footer>
+  <section id="contact">
+    <h2>Contatti</h2>
+    <p>Email: <a href="mailto:nyagomaxel2@gmail.com">nyagomaxel2@gmail.com</a></p>
+    <p>GitHub: <a href="https://github.com/axelred-rgb" target="_blank">github.com/axelred-rgb</a></p>
+    <p>LinkedIn: <a href="https://linkedin.com/in/axelnyagom" target="_blank">linkedin.com/in/axelnyagom</a></p>
+  </section>
+</main>
 
-</body>
-</html>
+<footer style="text-align: center; padding: 20px; background-color: #f1f1f1;">
+  <p>© 2025 Axel Nyagom – Cloud & DevOps Engineer</p>
+</footer>
+
